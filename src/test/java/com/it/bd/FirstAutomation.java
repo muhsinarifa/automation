@@ -10,7 +10,7 @@ public class FirstAutomation extends BaseDriver{
 		
 		//browser opening
 		
-		driver.get("https://mvnrepository.com/");
+		driver.get("https://www.beecrowd.com.br/");
 		Thread.sleep(5000);
 		
 		System.out.println(driver.getTitle());
