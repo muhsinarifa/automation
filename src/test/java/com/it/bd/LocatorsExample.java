@@ -39,11 +39,13 @@ public class LocatorsExample extends BaseDriver{
 //		Thread.sleep(3000);
 		
 		//By partial link text
-		WebElement launch = driver.findElement(By.partialLinkText("Lau"));
-		launch.click();
-		Thread.sleep(3000);
+//		WebElement launch = driver.findElement(By.partialLinkText("Lau"));
+//		launch.click();
+//		Thread.sleep(3000);
 		
 		//css ->  elementName[attributeName='attributeValue']
 		WebElement name = driver.findElement(By.cssSelector("input[name='dest_from']"));
+		name.click();
+		Thread.sleep(3000);
 	}
 }

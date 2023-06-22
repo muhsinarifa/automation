@@ -21,7 +21,7 @@ public class BaseDriver {
 			//communication with which browser??
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
-		}else if(browser.contains("firebox")){
+		}else if(browser.contains("firefox")){
 			WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 		}else {

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-17T06:13:16 BDT" name="Default suite" finished-at="2023-06-17T06:14:17 BDT" duration-ms="60052">
+  <suite started-at="2023-06-23T03:28:17 BDT" name="Default suite" finished-at="2023-06-23T03:28:29 BDT" duration-ms="12206">
     <groups>
     </groups>
-    <test started-at="2023-06-17T06:13:16 BDT" name="Default test" finished-at="2023-06-17T06:14:17 BDT" duration-ms="60052">
-      <class name="com.it.bd.LocatorsExample">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.it.bd.LocatorsExample@53fb3dab]" started-at="2023-06-17T06:13:14 BDT" name="start" finished-at="2023-06-17T06:13:16 BDT" duration-ms="2443" status="PASS">
+    <test started-at="2023-06-23T03:28:17 BDT" name="Default test" finished-at="2023-06-23T03:28:29 BDT" duration-ms="12206">
+      <class name="com.it.bd.BrowserCommandsExample">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.it.bd.BrowserCommandsExample@53fb3dab]" started-at="2023-06-23T03:28:15 BDT" name="start" finished-at="2023-06-23T03:28:17 BDT" duration-ms="2378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="testLocators()[pri:0, instance:com.it.bd.LocatorsExample@53fb3dab]" started-at="2023-06-17T06:13:17 BDT" name="testLocators" finished-at="2023-06-17T06:14:17 BDT" duration-ms="60015" status="PASS">
+        <test-method signature="browserCommandTest()[pri:0, instance:com.it.bd.BrowserCommandsExample@53fb3dab]" started-at="2023-06-23T03:28:17 BDT" name="browserCommandTest" finished-at="2023-06-23T03:28:29 BDT" duration-ms="12170" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLocators -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.it.bd.LocatorsExample@53fb3dab]" started-at="2023-06-17T06:14:17 BDT" name="close" finished-at="2023-06-17T06:14:17 BDT" duration-ms="96" status="PASS">
+        </test-method> <!-- browserCommandTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.it.bd.BrowserCommandsExample@53fb3dab]" started-at="2023-06-23T03:28:29 BDT" name="close" finished-at="2023-06-23T03:28:29 BDT" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.it.bd.LocatorsExample -->
+      </class> <!-- com.it.bd.BrowserCommandsExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
