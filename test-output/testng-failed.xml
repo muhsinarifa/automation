@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.it.bd.SelectMethodHandling">
+      <class name="com.it.bd.waitExamples">
         <methods>
           <include name="start"/>
           <include name="close"/>
-          <include name="slectTest"/>
+          <include name="testWaits"/>
         </methods>
-      </class> <!-- com.it.bd.SelectMethodHandling -->
+      </class> <!-- com.it.bd.waitExamples -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
